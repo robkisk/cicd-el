@@ -1,0 +1,10 @@
+TASK_CLUSTER:
+  SPARK_VERSION: 11.3.x-cpu-ml-scala2.12
+  NODE_TYPE: Standard_E8_v3
+  DRIVER_NODE_TYPE: Standard_E8_v3
+  # INSTANCE_POOL_ID: 0803-173103-groan98-pool-ynq624dv
+  POLICY_ID: D96308F1BF0003A7
+  NUM_WORKERS: 10
+  MIN_WORKERS: 1
+  MAX_WORKERS: 15
+EMAIL: robby.kiskanyan@databricks.com
